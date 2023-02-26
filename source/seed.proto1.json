@@ -54,28 +54,37 @@
 		
 		"button1": {
 			"component": "Switch",
-			"pin": 1
+			"pin": 26
 		},
 		"button2": {
 			"component": "Switch",
-			"pin": 2
+			"pin": 27
 		},
 		"button3": {
 			"component": "Switch",
-			"pin": 3
+			"pin": 1
 		},
 		"button4": {
 			"component": "Switch",
-			"pin": 4
+			"pin": 2
 		},
 		
 		"sw1": {
 			"component": "Switch3",
-			"pin": {"a":5, "b":6 }
+			"pin": {"a":4, "b":5 }
 		},
 		"sw2": {
 			"component": "Switch3",
-			"pin": {"a":7, "b":8 }
+			"pin": {"a":6, "b":7 }
+		},
+
+		"sw4": {
+			"component": "Switch3",
+			"pin": {"a":8, "b":9 }
+		},
+		"sw5": {
+			"component": "Switch3",
+			"pin": {"a":10, "b":11 }
 		}
 	},
 	"aliases": {
