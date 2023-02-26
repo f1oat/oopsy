@@ -338,6 +338,7 @@ function run() {
 			case "field": target_path = path.join(__dirname, "field.json"); break;
 			case "petal": target_path = path.join(__dirname, "petal.json"); break;
 			case "patch": target_path = path.join(__dirname, "patch.json"); break;
+			case "proto1": target_path = path.join(__dirname, "seed.proto1.json"); break;
 
 			case "watch": watch=true; break;
 
